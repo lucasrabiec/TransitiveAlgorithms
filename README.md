@@ -19,7 +19,7 @@ Look at the picture below for better comprehesion of this issues.
 #
 
 ## Transitive Reduction
-Transitive reduction removes redundant connections. This library uses an additional method which transforms graph to path matrix.  
+Transitive reduction removes redundant connections. This library uses an additional method which transforms graph into a path matrix.  
 Without this method algorithm doesn't remove 0 -> 1 connection in example called ***Hard***.
 
 ![Transitive closure](client/TransitiveAlgorithms.Client/Data/TransitiveReduction.png)
