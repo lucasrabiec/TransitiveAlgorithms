@@ -8,10 +8,10 @@ For example, if graph has connection such as 0 -> 1 -> 2 then algorithm add anot
 
 ### 1. Method with DFS (Depth First Search)
 If you use method with DFS you receive two additional connections 0 -> 0 and 2 -> 2.  
-Complexity: O(V^2)
+Time complexity: O(V^2)
 
 ### 2. Method with Floyd-Warshall
-Floyd-Warshall algorithm doesn't finds thats self-connections, but it have O(V^3) complexity.  
+Floyd-Warshall algorithm doesn't finds thats self-connections, but it have O(V^3) time complexity.  
   
 Look at the picture below for better comprehesion of this issues.
 
