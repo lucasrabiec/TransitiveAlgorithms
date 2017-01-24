@@ -23,3 +23,5 @@ Transitive reduction removes redundant connections. This library uses an additio
 Without this method algorithm doesn't remove 0 -> 1 connection in example called ***Hard***.
 
 ![Transitive closure](client/TransitiveAlgorithms.Client/Data/TransitiveReduction.png)
+
+> Diagrams made in [Draw.io](https://www.draw.io)
