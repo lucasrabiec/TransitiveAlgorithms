@@ -7,7 +7,7 @@ Transitive closure finds additional connection between two vertices.
 For example, if graph has connection such as 0 -> 1 -> 2 then algorithm add another connection 0 -> 2.  
 
 ### 1. Method with DFS (Depth First Search)
-If you use method with DFS you receive two additional connections 0 -> 0 and 2 -> 2.
+If you use method with DFS you receive two additional connections 0 -> 0 and 2 -> 2.  
 Complexity: O(V^2)
 
 ### 2. Method with Floyd-Warshall
